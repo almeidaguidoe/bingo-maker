@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game Settings | Bingo Maker</title>
+
+        <!--GOOGLE FONTS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kirang+Haerang&display=swap" 
+        rel="stylesheet">
+
+        <!--FONT AWESOME-->
+        <script src="https://kit.fontawesome.com/3b60c42785.js" crossorigin="anonymous"></script>
+
+        <!-- JAVASCRIPT -->
+        <script type="module" src="./game-settings.js" defer></script>
+    
+        <!--ICONO DE LA PÁGINA-->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        
+        <!--
+        <link rel="icon" type="image/x-icon" href="./img/icono-pagina.ico">
+        -->
+    </head>
+    <body>
+        <header>
+            <a class="btn_top-left" href="./words-selection.html"><i class="fa-solid fa-arrow-left"></i> Go back</a>
+            <h1>BINGO MAKER</h1>
+        </header>
+        <main>
+            <h2>Final settings before the game</h2>
+            <div id="game-settings_main-container">
+                <div class="game-set_box">
+                    <h3>Players</h3>
+                    <div class="game-set_data" id="game-set_players-data"></div>
+                </div>
+                <div class="game-set_box">
+                    <h3>Words Selected</h3>
+                    <div class="game-set_data" id="game-set_words-data"></div>
+                </div>
+                <div class="game-set_box">
+                    <h3>Settings</h3>
+                    <div class="game-set_data">
+                        <p>Number of pictures per player:</p>
+                        <input type="number" id="num-cards-input" min="6" value="6" max="10">
+                    </div>
+                    <div class="game-set_data">
+                        <p>Show words on pictures</p>
+                        <label class="toggle-switch" title="Toggle show words on bingo cards">
+                            <input type="checkbox" id="toggle-show-words" checked>
+                            <span class="slider"></span>
+                        </label>
+                        <div class="game-set_setting-demonstration">
+                            <p>Cards will look like this: </p>
+                            <img id="game-set_demo-card" alt="Demo card image">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+        <footer class="game-settings_footer">
+            <button class="btn_bottom-right" id="btn_start-game">Start Game <i class="fa-solid fa-arrow-right"></i></button>
+        </footer>
+    </body>
+</html>

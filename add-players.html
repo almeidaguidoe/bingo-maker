@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Add Players | Bingo Maker</title>
+
+        <!--GOOGLE FONTS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kirang+Haerang&display=swap" 
+        rel="stylesheet">
+
+        <!--FONT AWESOME-->
+        <script src="https://kit.fontawesome.com/3b60c42785.js" crossorigin="anonymous"></script>
+
+        <!-- JAVASCRIPT -->
+        <script src="./add-players.js" defer></script>
+     
+        <!--ICONO DE LA PÁGINA-->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        
+        <!--
+        <link rel="icon" type="image/x-icon" href="./img/icono-pagina.ico">
+        -->
+    </head>
+    <body>
+        <header>
+            <a class="btn_top-left" id="add-pl_btn-go-back" href="./index.html"><i class="fa-solid fa-arrow-left"></i> Go back</a>
+            <h1>BINGO MAKER</h1>
+        </header>
+        <main class="add-players_main-container">
+            <h2>Add the players for the game</h2>
+            <div class="add-players_players-container" id="add-players_players-container">
+                <div class="add-pl_player-box">
+                    <img class="add-pl_player-icon" src="">
+                    <input class="add-pl_player-name-input" type="text" placeholder="Player's name...">
+                </div>
+                <div class="add-pl_player-box">
+                    <img class="add-pl_player-icon" src="">
+                    <input class="add-pl_player-name-input" type="text" placeholder="Player's name...">
+                </div>
+                <div class="add-pl_player-box">
+                    <img class="add-pl_player-icon" src="">
+                    <input class="add-pl_player-name-input" type="text" placeholder="Player's name...">
+                </div>
+            </div>
+            <div class="add-pl_add-player-box-btn" id="add-player-box-btn">
+                    <img src="./img/icons/plus.png">
+            </div>
+            
+        </main>
+        <footer>
+            <button class="btn_bottom-right" id="add-pl_select-words">Select words <i class="fa-solid fa-arrow-right"></i></button>
+        </footer>
+    </body>
+</html>

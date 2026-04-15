@@ -1,0 +1,15 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Node modules (si los agregas después)
+node_modules/
+package-lock.json
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+
+# Logs
+*.log

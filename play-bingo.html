@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Play Bingo! | Bingo Maker</title>
+
+        <!--GOOGLE FONTS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kirang+Haerang&display=swap" 
+        rel="stylesheet">
+
+        <!--FONT AWESOME-->
+        <script src="https://kit.fontawesome.com/3b60c42785.js" crossorigin="anonymous"></script>
+
+        <!-- JAVASCRIPT -->
+        <script src="./play-bingo.js" defer></script>
+     
+        <!--ICONO DE LA PÁGINA-->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        
+        <!--
+        <link rel="icon" type="image/x-icon" href="./img/icono-pagina.ico">
+        -->
+    </head>
+<body>
+    <header>
+        <button class="btn_top-left" id="game_btn-menu"><i class="fa-solid fa-circle-info"></i> Menu</button>
+        <h1>BINGO MAKER</h1>
+    </header>
+    <main class="game_main-container">
+        <!-- Player cards will be generated here dynamically -->
+        
+    </main>
+    
+    <div class="full-black-container" id="game_cont-current-word">
+        <div id="game_current-word">
+            <img src="" alt="Current word image">
+        </div>
+        <span id="game_current-word-text"></span>
+        <button id="game_btn-cross-out-word">Cross the word out!</button>
+    </div>
+    
+    
+    <footer class="game_footer">
+        <span id="game_words-left" >Words left: </span>
+        <button id="btn_next-word"><i class="fa-solid fa-image"></i> Next Word</button>
+    </footer>
+</body>
+</html>
