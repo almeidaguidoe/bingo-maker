@@ -1109,6 +1109,63 @@ export const colecciones = [
         ]
     },
     {
+        "categoria": "technology",
+        "palabras": [
+            {
+                "name": "apps",
+                "ext": "png"
+            },
+            {
+                "name": "charger",
+                "ext": "png"
+            },
+            {
+                "name": "digital-camera",
+                "ext": "png"
+            },
+            {
+                "name": "headphones",
+                "ext": "png"
+            },
+            {
+                "name": "keyboard",
+                "ext": "png"
+            },
+            {
+                "name": "laptop",
+                "ext": "png"
+            },
+            {
+                "name": "mobile-phone",
+                "ext": "png"
+            },
+            {
+                "name": "mouse",
+                "ext": "png"
+            },
+            {
+                "name": "printer",
+                "ext": "png"
+            },
+            {
+                "name": "screen",
+                "ext": "png"
+            },
+            {
+                "name": "speakers",
+                "ext": "png"
+            },
+            {
+                "name": "tablet",
+                "ext": "png"
+            },
+            {
+                "name": "webcam",
+                "ext": "png"
+            }
+        ]
+    },
+    {
         "categoria": "town-buildings",
         "palabras": [
             {
