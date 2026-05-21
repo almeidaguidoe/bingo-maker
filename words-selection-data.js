@@ -175,7 +175,15 @@ export const colecciones = [
                 "ext": "png"
             },
             {
+                "name": "bend-your-knees",
+                "ext": "png"
+            },
+            {
                 "name": "body",
+                "ext": "png"
+            },
+            {
+                "name": "clap-your-hands",
                 "ext": "png"
             },
             {
@@ -223,15 +231,31 @@ export const colecciones = [
                 "ext": "png"
             },
             {
+                "name": "mouth",
+                "ext": "png"
+            },
+            {
+                "name": "move-your-body",
+                "ext": "png"
+            },
+            {
                 "name": "nose",
                 "ext": "png"
             },
             {
-                "name": "smile",
+                "name": "stamp-your-feet",
+                "ext": "png"
+            },
+            {
+                "name": "stretch-your-arms",
                 "ext": "png"
             },
             {
                 "name": "toe",
+                "ext": "png"
+            },
+            {
+                "name": "touch-your-toes",
                 "ext": "png"
             },
             {

@@ -20,7 +20,7 @@ colecciones.forEach(col => {
     const indexCategory = document.createElement('span');
     indexCategory.id = `index_${col.categoria}`;
     indexCategory.className = 'w-select_index-category';
-    indexCategory.innerHTML = `${col.categoria.toUpperCase().replace('-', ' ')}`;
+    indexCategory.innerHTML = `${col.categoria.toUpperCase().replaceAll('-', ' ')}`;
     wSelectIndex.appendChild(indexCategory);
 })
 
@@ -30,7 +30,7 @@ console.log(indexCategories);
 
 indexCategories.forEach(cat => {
     cat.addEventListener('click', () => {
-        const headerToGo = document.getElementById(`words-selection_category-${cat.id.replace('index_', '')}`)
+        const headerToGo = document.getElementById(`words-selection_category-${cat.id.replaceAll('index_', '')}`)
         headerToGo.scrollIntoView({ behavior: 'smooth'});
     })
 })
@@ -52,7 +52,7 @@ function generarCategoria(coleccion) {
     headerWrapper.id = `words-selection_category-${coleccion.categoria}`
 
     const categoria = document.createElement('h3');
-    categoria.innerHTML = `${coleccion.categoria.toUpperCase().replace('-', ' ')}`;
+    categoria.innerHTML = `${coleccion.categoria.toUpperCase().replaceAll('-', ' ')}`;
 
     headerWrapper.appendChild(categoria);
     mainContainer.appendChild(headerWrapper);
@@ -106,7 +106,7 @@ function generarFichas(coleccion) {
             <img src="./img/icons/tick.png" class="w-select_tick oculto">
         </div>
         <img src="./img/word-categories/${coleccion.categoria}/${palabra.name}.${palabra.ext}" class="w-select_img">
-        <h4>${palabra.name.toUpperCase().replace('-', ' ')}</h4>
+        <h4>${palabra.name.toUpperCase().replaceAll('-', ' ')}</h4>
         `
 
         picsContainer.appendChild(ficha);
