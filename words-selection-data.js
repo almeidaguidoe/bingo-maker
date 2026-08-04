@@ -3,6 +3,35 @@
 
 export const colecciones = [
     {
+        "categoria": "animal-body-parts",
+        "palabras": [
+            {
+                "name": "feathers",
+                "ext": "png"
+            },
+            {
+                "name": "fur",
+                "ext": "png"
+            },
+            {
+                "name": "shell",
+                "ext": "png"
+            },
+            {
+                "name": "tail",
+                "ext": "png"
+            },
+            {
+                "name": "teeth",
+                "ext": "png"
+            },
+            {
+                "name": "wings",
+                "ext": "png"
+            }
+        ]
+    },
+    {
         "categoria": "animals",
         "palabras": [
             {
@@ -1018,6 +1047,51 @@ export const colecciones = [
             },
             {
                 "name": "two",
+                "ext": "png"
+            }
+        ]
+    },
+    {
+        "categoria": "pets",
+        "palabras": [
+            {
+                "name": "cat",
+                "ext": "png"
+            },
+            {
+                "name": "dog",
+                "ext": "png"
+            },
+            {
+                "name": "fish",
+                "ext": "png"
+            },
+            {
+                "name": "guinea-pig",
+                "ext": "png"
+            },
+            {
+                "name": "mouse",
+                "ext": "png"
+            },
+            {
+                "name": "parrot",
+                "ext": "png"
+            },
+            {
+                "name": "rabbit",
+                "ext": "png"
+            },
+            {
+                "name": "snake",
+                "ext": "png"
+            },
+            {
+                "name": "spider",
+                "ext": "png"
+            },
+            {
+                "name": "tortoise",
                 "ext": "png"
             }
         ]
