@@ -1453,6 +1453,10 @@ export const colecciones = [
                 "ext": "png"
             },
             {
+                "name": "clean-the-floor",
+                "ext": "png"
+            },
+            {
                 "name": "climb",
                 "ext": "png"
             },
@@ -1474,6 +1478,10 @@ export const colecciones = [
             },
             {
                 "name": "feed the cat",
+                "ext": "png"
+            },
+            {
+                "name": "feed-the-cat",
                 "ext": "png"
             },
             {
@@ -1506,6 +1514,14 @@ export const colecciones = [
             },
             {
                 "name": "knit",
+                "ext": "png"
+            },
+            {
+                "name": "lay-the-table",
+                "ext": "png"
+            },
+            {
+                "name": "make-the-bed",
                 "ext": "png"
             },
             {
@@ -1577,11 +1593,19 @@ export const colecciones = [
                 "ext": "png"
             },
             {
+                "name": "tidy-up",
+                "ext": "png"
+            },
+            {
                 "name": "walk",
                 "ext": "png"
             },
             {
                 "name": "walk the dog",
+                "ext": "png"
+            },
+            {
+                "name": "wash-the-car",
                 "ext": "png"
             },
             {
