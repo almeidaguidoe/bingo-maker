@@ -40,7 +40,7 @@ function renderPlayerCards() {
             wordPictureDiv.className = 'game_word-picture';
             wordPictureDiv.innerHTML = `
                 <img src="${word.image}" alt="${word.word}" data-category="${word.category}">
-                ${toggleShowWords ? `<span>${word.word.toUpperCase().replace('-', ' ')}</span>` : ''}
+                ${toggleShowWords ? `<span>${word.word.toUpperCase().replaceAll('-', ' ')}</span>` : ''}
             `;
             wordsContainer.appendChild(wordPictureDiv);
         });
@@ -461,7 +461,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Anuncio de ganador(es)
                     const winnerDiv = document.createElement('div');
                     winnerDiv.className = 'winner-announcement-container';
-                    const title = currentWinners.length === 1 ? 'We have a winner!' : 'We have a tie!';
+                    const title = currentWinners.length === 1 ? 'Bingo!' : 'Tie!';
                     winnerDiv.innerHTML = `
                         <div class='winner-announcement'>
                             <h2>${title}</h2>

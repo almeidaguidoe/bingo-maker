@@ -1477,10 +1477,6 @@ export const colecciones = [
                 "ext": "png"
             },
             {
-                "name": "feed the cat",
-                "ext": "png"
-            },
-            {
                 "name": "feed-the-cat",
                 "ext": "png"
             },
@@ -1569,6 +1565,10 @@ export const colecciones = [
                 "ext": "png"
             },
             {
+                "name": "skip the rope",
+                "ext": "png"
+            },
+            {
                 "name": "sleep",
                 "ext": "png"
             },
@@ -1590,10 +1590,6 @@ export const colecciones = [
             },
             {
                 "name": "tidy up",
-                "ext": "png"
-            },
-            {
-                "name": "tidy-up",
                 "ext": "png"
             },
             {

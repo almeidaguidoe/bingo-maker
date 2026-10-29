@@ -945,6 +945,7 @@ footer {
     justify-content: flex-end;
     height: 13rem;
     transition: .5s ease opacity;
+    object-fit: contain;
 }
 
 .game_word-picture.clickable {
@@ -995,6 +996,7 @@ footer {
     font-family: "gloria hallelujah", cursive;
     font-size: calc(1rem + 0.3vw);
     text-align: center;
+    
 }
 
 .game_footer {
